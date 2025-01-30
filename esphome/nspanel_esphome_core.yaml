@@ -124,7 +124,8 @@ wifi:
   power_save_mode: LIGHT
   networks:
     - id: wifi_default
-      ssid: ${wifi_ssid}
+      # ssid: ${wifi_ssid}
+      bssid: ${wifi_bssid}
       password: ${wifi_password}
   on_connect:
     then:
